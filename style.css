@@ -1,0 +1,85 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-image: url(photo_2_2025-03-28_09-31-23.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.move-box{
+    color: white;
+    border-radius: 20px; 
+    display: grid; 
+    grid-template-columns: 300px 300px 300px 300px;
+    column-gap: 30px;
+    row-gap: 100px;
+    justify-content: center;
+    margin-top: 100px;
+    align-items: center;
+}
+.films-box{
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 150px;
+    width: 300px;
+    align-items: center;
+    transition: 0.5s;
+    max-height: 220px;
+}
+.films-box:hover{
+    box-shadow: 3px 3px 3px 3px white;
+    transition: 0.1s;
+}
+.move-name{
+    color: red;
+}
+img:hover{
+    transform: scale(1.2);
+    border-radius: 20px;
+    transition: 1s;
+    overflow: hidden;
+}
+img{
+    border-radius: 20px;
+    transition: 1s;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+input{
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+input:hover{
+    background-color: chocolate;
+}
+button{
+    background-color: chocolate;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
+button:hover{
+    transition: 0.5s;
+    background-color: green;
+}
