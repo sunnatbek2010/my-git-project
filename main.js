@@ -112,7 +112,7 @@ const films = [
       title: "Spider-Man: Into the Spider-Verse",
       poster: "https://image.tmdb.org/t/p/w500/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
       overview:
-         "Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson 'Kingpin' Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.",
+         "Miles, others from across the Spider-Verse are transported to this dimension.",
       release_date: 1544140800,
       genres: ["Action", "Adventure", "Animation", "Science Fiction", "Comedy"],
    },
